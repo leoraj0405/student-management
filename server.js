@@ -7,6 +7,10 @@ server.get('/', function(req, res) {
   res.render('pages/form');
 });
 
+server.get('/facebook', function(req, res) {
+  res.render('pages/facebookForm');
+});
+
 server.listen(PORT);
 
 console.log(`Server is listening on port ${PORT}`);
