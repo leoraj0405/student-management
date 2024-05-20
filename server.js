@@ -8,7 +8,7 @@ server.get('/', function(req, res) {
 });
 
 server.get('/facebook', function(req, res) {
-  res.render('pages/facebookForm');
+  res.render('pages/facebook');
 });
 
 server.listen(PORT);
